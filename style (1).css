@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+.menu-btn {
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background-color: #0b75ff;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.4s;
+}
+
+.side-menu a {
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 22px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.banner {
+    background: #cfe2ff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.categories {
+    text-align: center;
+    padding: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    width: 150px;
+    background: #e8f0ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #0b75ff;
+    font-size: 18px;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
